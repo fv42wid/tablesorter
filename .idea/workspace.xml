@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ff2106ed-5436-4068-868c-bd6e036a62db" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tables/index.html.haml" afterPath="$PROJECT_DIR$/app/views/tables/index.html.haml" />
     </list>
     <ignored path="tablesorter.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398266202044" ignored="false" />
     <file path="/routes.rb" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398266288914" ignored="false" />
     <file path="/tables_controller.rb" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398266593010" ignored="false" />
-    <file path="/index.html.haml" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398266653423" ignored="false" />
+    <file path="/index.html.haml" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398267606067" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +48,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.625">
+            <state line="77" column="21" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.7637795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="0.33834586">
+            <state line="12" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/tables/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/tables/index.html.haml" />
       </list>
     </option>
   </component>
@@ -637,16 +635,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.625">
+        <state line="12" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="0.33834586">
+        <state line="77" column="21" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.7637795">
           <folding />
         </state>
       </provider>
