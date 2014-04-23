@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff2106ed-5436-4068-868c-bd6e036a62db" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tables/index.html.haml" afterPath="$PROJECT_DIR$/app/views/tables/index.html.haml" />
     </list>
     <ignored path="tablesorter.iws" />
@@ -10,7 +11,8 @@
     <file path="/Dummy.txt" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398266202044" ignored="false" />
     <file path="/routes.rb" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398266288914" ignored="false" />
     <file path="/tables_controller.rb" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398266593010" ignored="false" />
-    <file path="/index.html.haml" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398267606067" ignored="false" />
+    <file path="/index.html.haml" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398277020902" ignored="false" />
+    <file path="/application.js" changelist="ff2106ed-5436-4068-868c-bd6e036a62db" time="1398277234633" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +53,19 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="21" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.7637795">
+            <state line="151" column="8" selection-start="3779" selection-end="3963" vertical-scroll-proportion="0.6666667">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="83" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,12 +100,13 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/tables/index.html.haml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="488" />
+    <option name="x" value="574" />
     <option name="y" value="52" />
     <option name="width" value="778" />
     <option name="height" value="689" />
@@ -247,6 +261,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tablesorter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tablesorter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,7 +574,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="488" y="52" width="778" height="689" extended-state="0" />
+    <frame x="574" y="52" width="778" height="689" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -642,9 +678,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="83" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="21" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.7637795">
+        <state line="151" column="8" selection-start="3779" selection-end="3963" vertical-scroll-proportion="0.6666667">
           <folding />
         </state>
       </provider>
